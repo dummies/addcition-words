@@ -9,7 +9,7 @@
                 for (var i = 0; i < labels.length; i++) {
                     disableSelection(labels[i]);
                 }			
-			//loadwords();
+			loadwords();
             };
             function disableSelection(element) {
                 if (typeof element.onselectstart != 'undefined') {
@@ -24,7 +24,6 @@
 <script>
 document.onselectstart = function(){ return false; }
 </script>
-<script src="js/phplogic.php"></script>
 <script src="js/gameplay.js" ></script>
 <link href="styles/check_cs6.css" rel="stylesheet" type="text/css">
 <link href="styles/table.css" rel="stylesheet" type="text/css">
