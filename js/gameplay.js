@@ -41,7 +41,7 @@ function ajaxFunction(){
 function loadwords()
 {
 var xhr = new XMLHttpRequest();
-xhr.open('GET', 'op.txt', false);
+xhr.open('GET', 'Data/op.txt', false);
 xhr.send(null);
 words = xhr.responseText.split('\n');
 }
